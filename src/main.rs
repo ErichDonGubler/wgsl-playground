@@ -364,7 +364,7 @@ impl Playground {
                             view: &view,
                             resolve_target: None,
                             ops: Operations {
-                                load: LoadOp::Clear(wgpu::Color::BLACK),
+                                load: LoadOp::Clear(wgpu::Color::TRANSPARENT),
                                 store: true,
                             },
                         })],
